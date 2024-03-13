@@ -110,9 +110,6 @@ body{
 }
 
 
-
-
-
 .seccion-1{
     display:flex;
     justify-content: center;
@@ -191,13 +188,13 @@ a i.fa-solid.fa-heart.fixed{
 }
 
 /* ------------- CSS General ------------- */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  body {
+body {
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
   }
@@ -205,7 +202,7 @@ a i.fa-solid.fa-heart.fixed{
   /* ------------- Encabezado Contacto ------------- */
 
   
-  .form-header {
+.form-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,7 +216,7 @@ a i.fa-solid.fa-heart.fixed{
     padding: 50px;
   }
   
-  .form-header h1 {
+.form-header h1 {
     font-size: 30px;
     margin-bottom: 20px;
     color:brown;
@@ -227,7 +224,7 @@ a i.fa-solid.fa-heart.fixed{
   
   /* ------------- Formulario ------------- */
   
-  .formulario {
+.formulario {
 
     border: 1px solid #d6d9dc;
     border-radius: 3px;
@@ -238,7 +235,7 @@ a i.fa-solid.fa-heart.fixed{
   }
   /* ------------- Campos del Formulario ------------- */
 
-  .form-row {
+.form-row {
     margin-bottom: 40px;
     display: flex;
     justify-content: flex-start;
