@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/e4555d1d4b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <header id="encabezado">
+            <a class= "NombreTitulo" href="index.html">
+                <i class="fa-solid fa-heart"></i>
+                </a>
+
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>Acerca de mi</h2>
+                    <p class="parrafo1">
+                        ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+                    </p>
+                    <p class="parrafo2">
+                        Me llamo Ruth, nací en Lima y sigo viviendo aquí. Me gusta Spiderman y salir con mis amigos/as. Me encantaría aprender a programar para hacer un mundo más accesible digitalmente.
+                    </p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/yo.jpg" alt="imagen personal">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="img/spiderman-meme.jpg" alt="imagen spiderman">
+            </section>
+            <section class="seccion-3">
+                <div class="card">
+                    <div class="card-imagen">
+                        <img src="img/sad.jpeg" alt="imagenes">
+                    </div>
+                    <div class="card-contenido">
+                        <h2>Titulo 1</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure atque accusamus dolorem doloribus, voluptatem esse, voluptas corrupti repudiandae veniam aspernatur rem ratione sint totam fuga fugiat debitis tenetur sequi id!</p>
+                        <a href="#Sabermas1">Saber mas...</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-imagen">
+                        <img src="img/sad.jpeg" alt="imagenes">
+                    </div>
+                    <div class="card-contenido">
+                        <h2>Titulo 1</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure atque accusamus dolorem doloribus, voluptatem esse, voluptas corrupti repudiandae veniam aspernatur rem ratione sint totam fuga fugiat debitis tenetur sequi id!</p>
+                        <a href="#Sabermas2">Saber mas...</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-imagen">
+                        <img src="img/sad.jpeg" alt="imagenes">
+                    </div>
+                    <div class="card-contenido">
+                        <h2>Titulo 1</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure atque accusamus dolorem doloribus, voluptatem esse, voluptas corrupti repudiandae veniam aspernatur rem ratione sint totam fuga fugiat debitis tenetur sequi id!</p>
+                        <a href="#Sabermas3">Saber mas...</a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+        <div class="footerfinal">
+            <h3>Juguemos a: 4 verdades y 1 falsedad</h3>
+            <ul>
+                <li>No tengo bazo</li>
+                <li>Hoy es mi cumpleaños</li>
+                <li>Nací sin muelas del juicio</li>
+                <li>Puedo hablar 3 idiomas</li>
+                <li>He viajado a Asia</li>
+            </ul>
+        </div>
+        </footer>
+    </div>
+
+    <div class="form-header">
+        <h1>Unete</h1>
+        <p><em>¡Esperamos tu comunicación!</em></p>
+
+        <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="pepe@gmail.com"
+                    required
+                />
+            </div>
+            <div class="form-row">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+            <div class="form-row">
+                <button>Enviar</button>
+            </div>
+            <p class="alertas" id="alertas"></p>
+        </form>
+    </div>
+    <div class="header-container">
+        <div class="header-final">
+            <div class="suscribe">Contacto</div>
+            <li class="social-ig"><a href="https://www.instagram.com/lacangaruthlosa/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="social-facebook">Facebook</li>
+            <li class="social-linkedIn"><a href="https://www.linkedin.com/in/ruth-nadiezhda-araujo-carhuancho/">LinkedIn</a></li>
+            <li class="social-tiktok">TikTok</li>
+            <a href="https://egg.live/">
+            <i class="fa-solid fa-heart fixed"></i></a>
+        </div>
+        
+    </div>
+<script defer src="script.js"></script>
+</body>
+</html>
