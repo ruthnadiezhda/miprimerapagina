@@ -451,3 +451,9 @@ a i.fa-solid.fa-heart.fixed{
 .alertas{
     color: red;
 }
+
+.greeting{
+  color:coral;
+  align-items: center;
+  text-align: center;
+}
